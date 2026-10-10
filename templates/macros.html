@@ -1,0 +1,32 @@
+{% macro post_item(p) %}
+<article class="post-item{% if p.image and static_exists(p.image) %} has-thumb{% endif %}">
+  {% if p.image and static_exists(p.image) %}
+  <a class="post-thumb" href="{{ p.url }}" tabindex="-1" aria-hidden="true"><img src="{{ p.image }}" alt="" loading="lazy"></a>
+  {% endif %}
+  <div class="post-body">
+    <p class="meta"><time datetime="{{ p.date.isoformat() }}">{{ p.date|longdate }}</time></p>
+    <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+    <p>{{ p.summary }}</p>
+    {% if p.categories %}
+    <ul class="terms">
+      {% for c in p.categories %}<li><a href="{{ c.url }}">{{ c.name }}</a></li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>
+{% endmacro %}
+
+{% macro service_list(services) %}
+<ul class="service-list">
+  {% for s in services %}
+  <li class="service">
+    <h3><a href="{{ s.url }}">{{ s.card_title }}</a></h3>
+    <p>{{ s.summary }}</p>
+  </li>
+  {% endfor %}
+  <li class="service">
+    <h3>And more</h3>
+    <p>Our team has experience across many sectors. If you don't see a service listed here, but you do see it on our <a href="/about/">About</a> page, or it seems like it might be related, <a href="{{ site.intake_url }}" target="_blank" rel="noopener">write us</a> and tell us what you need.</p>
+  </li>
+</ul>
+{% endmacro %}

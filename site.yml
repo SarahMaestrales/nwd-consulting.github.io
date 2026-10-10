@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------
+# Site-wide settings. Edit this file to change names, links, menu.
+# ---------------------------------------------------------------
+name: NWD Consulting Network
+legal_name: NWD Consulting Network, S.L.U.
+tagline: Bringing the Education back to EdTech
+descriptors:
+  - Product Insights
+  - Measurement & Research Design
+  - Course and Curriculum Development
+description: >-
+  NWD Consulting Network connects clients with an international community of
+  research scientists, data analysts, education experts, technical writers,
+  and software engineers.
+
+url: https://www.nwd-consulting.com   # no trailing slash
+cname: www.nwd-consulting.com         # written to the CNAME file for GitHub Pages
+logo: /img/NWDLogo.jpg                # drop your logo file at static/img/NWDLogo.jpg
+
+intake_url: https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform
+linkedin: https://www.linkedin.com/company/nwd-consulting-network
+
+posts_per_page: 10
+default_author: sarah-maestrales
+
+nav:
+  - { label: About, url: /about/ }
+  - { label: Services, url: /services/ }
+  - { label: Get the Latest, url: /blog/ }
+
+countries:
+  - Australia
+  - Brazil
+  - Italy
+  - Kenya
+  - Malaysia
+  - Nigeria
+  - Peru
+  - Portugal
+  - Spain
+  - South Africa
+  - the United States of America

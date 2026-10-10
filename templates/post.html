@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+  <header class="page-head post-head">
+    <div class="wrap">
+      <p class="crumb"><a href="/blog/">Get the latest</a></p>
+      <h1>{{ item.title }}</h1>
+      <p class="meta">
+        <time datetime="{{ item.date.isoformat() }}">{{ item.date|longdate }}</time>
+        <span>{{ item.read_minutes }} min read</span>
+        {% if item.author_name %}<span>By {{ item.author_name }}</span>{% endif %}
+      </p>
+    </div>
+  </header>
+  <div class="wrap">
+    {% if item.image and static_exists(item.image) %}
+    <figure class="post-hero"><img src="{{ item.image }}" alt="{{ item.image_alt or '' }}"></figure>
+    {% endif %}
+    <div class="prose">
+      {{ item.content|safe }}
+      {% if item.categories or item.tags %}
+      <div class="post-terms">
+        {% if item.categories %}
+        <ul class="terms">{% for c in item.categories %}<li><a href="{{ c.url }}">{{ c.name }}</a></li>{% endfor %}</ul>
+        {% endif %}
+        {% if item.tags %}
+        <ul class="terms terms-tags">{% for t in item.tags %}<li><a href="{{ t.url }}">{{ t.name }}</a></li>{% endfor %}</ul>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+    {% if newer or older %}
+    <nav class="pager post-pager" aria-label="More posts">
+      {% if older %}<a href="{{ older.url }}"><span class="pager-label">Previous post</span>{{ older.title }}</a>{% else %}<span></span>{% endif %}
+      {% if newer %}<a class="pager-next" href="{{ newer.url }}"><span class="pager-label">Next post</span>{{ newer.title }}</a>{% else %}<span></span>{% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</article>
+{% include "cta.html" %}
+{% endblock %}

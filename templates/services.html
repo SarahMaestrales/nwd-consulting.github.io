@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% from "macros.html" import service_list %}
+{% block content %}
+<header class="page-head">
+  <div class="wrap">
+    <h1>Services</h1>
+    <p class="lede">No matter the scope, NWD Consulting Network is built to take your work further.</p>
+  </div>
+</header>
+<section class="section section-flush">
+  <div class="wrap">
+    {{ service_list(services) }}
+  </div>
+</section>
+{% include "cta.html" %}
+{% endblock %}

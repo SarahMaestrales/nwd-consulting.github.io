@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "macros.html" import post_item %}
+{% block content %}
+<header class="page-head">
+  <div class="wrap">
+    <h1>Get the latest</h1>
+    <p class="lede">News, ideas, and stories from the NWD Consulting Network.</p>
+    {% if all_categories %}
+    <ul class="terms terms-lg" aria-label="Browse by category">
+      {% for c in all_categories %}<li><a href="{{ c.url }}">{{ c.name }}</a></li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</header>
+<section class="section section-flush">
+  <div class="wrap">
+    {% if posts %}
+    <div class="post-list">
+      {% for p in posts %}{{ post_item(p) }}{% endfor %}
+    </div>
+    {% else %}
+    <p>No posts yet. Check back soon.</p>
+    {% endif %}
+    {% if pages > 1 %}
+    <nav class="pager" aria-label="Pages">
+      {% if pg > 1 %}<a href="{{ '/blog/' if pg == 2 else '/blog/page/' ~ (pg - 1) ~ '/' }}">Newer posts</a>{% else %}<span></span>{% endif %}
+      <span>Page {{ pg }} of {{ pages }}</span>
+      {% if pg < pages %}<a href="/blog/page/{{ pg + 1 }}/">Older posts</a>{% else %}<span></span>{% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

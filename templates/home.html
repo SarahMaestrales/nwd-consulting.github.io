@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% from "macros.html" import post_item, service_list %}
+{% block content %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1>International research, education, and technology</h1>
+      <p class="hero-tagline">{{ site.tagline }}</p>
+      <p class="lede">Experts bridging the gap between education and technology around the world.</p>
+      <p class="hero-text">NWD Consulting Network connects clients with an international community of research scientists, data analysts, education experts, technical writers, and software engineers. Whether you're a student preparing your dissertation, an independent author, a small business looking to expand internationally, or a large business looking to strengthen global partnerships, we meet you where you are.</p>
+      <div class="actions">
+        <a class="btn btn-gold" href="{{ site.intake_url }}" target="_blank" rel="noopener">Schedule an intake interview</a>
+        <a class="btn btn-ghost" href="/about/">More about us</a>
+      </div>
+    </div>
+    {% if has_logo %}
+    <div class="hero-logo"><img src="{{ site.logo }}" alt="NWD Consulting Network logo" width="260" height="260"></div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Services</h2>
+    <p class="section-intro">No matter the scope, NWD Consulting Network is built to take your work further.</p>
+    {{ service_list(services) }}
+  </div>
+</section>
+
+<section class="section band-navy">
+  <div class="wrap">
+    <h2>A network that works across borders</h2>
+    <p>Our consultants are based in {{ site.countries[:-1]|join(', ') }}, and {{ site.countries[-1] }}. Each of us has worked across at least two cultures, so we can help you anticipate the differences before they become problems.</p>
+  </div>
+</section>
+
+{% if latest %}
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The latest</h2>
+      <a href="/blog/">All posts</a>
+    </div>
+    <div class="post-grid">
+      {% for p in latest %}{{ post_item(p) }}{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section-tint">
+  <div class="wrap">
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      {% for f in faq %}
+      <details>
+        <summary>{{ f.q }}</summary>
+        <p>{{ f.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "cta.html" %}
+{% endblock %}

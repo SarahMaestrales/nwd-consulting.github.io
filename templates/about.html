@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-head">
+  <div class="wrap">
+    <h1>{{ item.title }}</h1>
+  </div>
+</header>
+<div class="wrap">
+  <div class="prose prose-intro">
+    {{ item.content|safe }}
+  </div>
+  {% for g in groups %}
+  <section class="people-group">
+    <h2>{{ g.title }}</h2>
+    <ul class="people">
+      {% for p in g.people %}
+      {% set src = '/img/people/' ~ p.photo if p.photo else '' %}
+      <li class="person">
+        {% if p.photo and static_exists(src) %}
+        <img class="avatar" src="{{ src }}" alt="Photo of {{ p.name }}" loading="lazy" width="96" height="96">
+        {% else %}
+        <span class="avatar avatar-initials" aria-hidden="true">{{ p.name|initials }}</span>
+        {% endif %}
+        <div>
+          <h3>{% if p.link %}<a href="{{ p.link }}" rel="noopener">{{ p.name }}{% if p.credentials %}, {{ p.credentials }}{% endif %}</a>{% else %}{{ p.name }}{% if p.credentials %}, {{ p.credentials }}{% endif %}{% endif %}{% if p.org %} <span class="org">({{ p.org }})</span>{% endif %}</h3>
+          <p>{{ p.role }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+{% include "cta.html" %}
+{% endblock %}
