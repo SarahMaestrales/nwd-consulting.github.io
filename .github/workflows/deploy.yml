@@ -4,11 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-<<<<<<< HEAD
-    - cron: "17 5 * * *"      # rebuilds daily so scheduled (future-dated) posts go live on their date
-=======
     - cron: "17 5 * * *"
->>>>>>> origin/main
   workflow_dispatch:
 
 permissions:
