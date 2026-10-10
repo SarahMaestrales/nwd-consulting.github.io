@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-head">
+  <div class="wrap">
+    <h1>{{ item.title }}</h1>
+  </div>
+</header>
+<div class="wrap">
+  <div class="prose">
+    {{ item.content|safe }}
+  </div>
+</div>
+{% endblock %}

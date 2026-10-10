@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="page-head">
+  <div class="wrap">
+    <p class="crumb"><a href="/services/">Services</a></p>
+    <h1>{{ item.title }}</h1>
+    {% if item.note %}<p class="note">{{ item.note }}</p>{% endif %}
+  </div>
+</header>
+<div class="wrap">
+  <div class="prose">
+    {{ item.content|safe }}
+  </div>
+</div>
+{% include "cta.html" %}
+{% endblock %}

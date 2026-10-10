@@ -1,0 +1,63 @@
+# Each group appears as a section on the About page.
+# photo: file name inside static/img/people/  (optional; initials show if missing)
+# link:  optional personal/company website
+- title: Founders
+  people:
+    - id: sarah-maestrales
+      name: Sarah Maestrales
+      credentials: Ph.D.
+      role: AI Implementation Strategist | Psychometrician | Research Methodologist | Curriculum Consultant | Adventurer | Artist
+      photo: sarah-maestrales.png
+    - id: ifeyinwa-onyenekwu
+      name: Ifeyinwa Onyenekwu
+      credentials: Ph.D., LMSW
+      role: Learning Leader | Researcher | Professor
+      photo: ifeyinwa-onyenekwu.png
+
+- title: Software Engineering
+  people:
+    - id: jake-mirra
+      name: Jake Mirra
+      credentials: Ph.D.
+      role: Software engineer specializing in financial systems
+      photo: jake-mirra.jpg
+
+- title: Research, Academics, & AI for Education
+  people:
+    - id: sadie-gunnink
+      name: Sadie Gunnink
+      credentials: Ed.D.
+      org: Rise Evolved
+      role: CEO & Founder of Rise Evolved | Learning Systems Development | EdTech Specialist
+      photo: sadie-gunnink.png
+    - id: kari-beth-krieger
+      name: Kari Beth Krieger
+      credentials: Ph.D.
+      org: Next Level Biology
+      role: Equine Facilitated Personal Coach | Catalyst for Growth and Transformation | Cross-cultural Bridge | Problem Solver
+      photo: kari-beth-krieger.png
+    - id: antonio-triunfo
+      name: Antonio Triunfo
+      credentials: M.A.T.
+      org: Triumphant
+      role: Educational Consultant | Broad Subject Tutor | Curriculum Editor | Motivational Designer | Data Analyst | Writer
+      photo: antonio-triunfo.jpeg
+    - id: davi-deconti
+      name: Davi DeConti
+      credentials: Ph.D.
+      role: Design instrucional | Treinamento corporativo
+      photo: davi-deconti.png
+    - id: henno-kotze
+      name: Henno Kotze
+      role: Digital Futures Manager | Preparing Organisations for the Future of Learning | AI Strategist
+      photo: henno-kotze.png
+    - id: gordon-tai
+      name: Gordon Tai
+      org: 3E English
+      role: Global Partner | AI Enablement Specialist | STEM & Language Edupreneur
+      photo: gordon-tai.png
+    - id: sarah-heany
+      name: Sarah Heany
+      credentials: Ph.D.
+      role: Behavioural and Clinical Neuroscience | Data Science | Interdisciplinary Research Methodology | Mellon Scholar | Oppenheimer Fellow
+      photo: sarah-heany.png
