@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main class="courses-page">
+  <section class="courses-intro">
+    <p class="eyebrow">NWD CONSULTING</p>
+    <h1>Courses & Workshops</h1>
+    <p class="courses-lead">
+      Practical workshops for educators, families, and communities navigating
+      the changing relationship between technology and everyday life.
+    </p>
+  </section>
+
+  <section class="courses-grid" aria-label="Available courses">
+
+    <article class="course-card">
+      <div class="course-card-content">
+        <p class="course-category">COMMUNITY WORKSHOP</p>
+        <h2>AI, Community, and Culture</h2>
+        <p class="course-subtitle">
+          A 6-Week Community Workshop on the Myths and Magic of AI
+        </p>
+        <p>
+          This six-week workshop brings together people of all ages to explore
+          the myths and magic of AI. By looking behind the complicated language
+          and uncovering what happens behind the scenes, participants can make
+          AI more approachable and open up meaningful conversations across
+          families, classrooms, and the wider community.
+        </p>
+        <p>
+          Topics include how large language models work, hallucinations and
+          AI errors, AI's role in society, critical thinking, and evaluating
+          AI-generated information.
+        </p>
+      </div>
+      <div class="course-downloads">
+        <a href="{{ site.base_path }}/CoursePDFs/NWD%20AI%20Literacy_EN.pdf"
+           class="btn btn-green" target="_blank" rel="noopener">
+          English PDF
+        </a>
+        <a href="{{ site.base_path }}/CoursePDFs/NWD%20AI%20Literacy_ES.pdf"
+           class="btn btn-outline" target="_blank" rel="noopener">
+          PDF en español
+        </a>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <div class="course-card-content">
+        <p class="course-category">TEACHER WORKSHOP</p>
+        <h2>Teaching, Learning, and AI</h2>
+        <p class="course-subtitle">
+          A 4 hr. Practical Workshop for Teachers on Learning in the Age of AI
+        </p>
+        <p>
+          Tired of being slop-slapped with essays students generated? This
+          workshop shows teachers how to help students think again by better
+          measuring student understanding and using the weaknesses of AI to
+          design assignments that promote critical thinking.
+        </p>
+        <p>
+          Educators explore ways to make AI literacy a natural part of existing
+          courses while encouraging students to demonstrate their own
+          understanding.
+        </p>
+      </div>
+      <div class="course-downloads">
+        <a href="{{ site.base_path }}/CoursePDFs/NWD%20TeachingTeachers_EN.pdf"
+           class="btn btn-green" target="_blank" rel="noopener">
+          English PDF
+        </a>
+        <a href="{{ site.base_path }}/CoursePDFs/NWD%20TeachingTeachers_ES.pdf"
+           class="btn btn-outline" target="_blank" rel="noopener">
+          PDF en español
+        </a>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <div class="course-card-content">
+        <p class="course-category">BEGINNER WORKSHOP</p>
+        <h2>Boosting Job Skills with AI</h2>
+        <p class="course-subtitle">
+          A 6-Week Beginner Workshop in AI-Assisted Coding and Automation
+        </p>
+        <p>
+          Programming can feel inaccessible when even the instructions are
+          full of unfamiliar words. This beginner-friendly workshop shows
+          participants how to use AI as a guide through technical challenges,
+          create simple digital projects, and build small automations with
+          Python. No previous coding experience is needed.
+        </p>
+        <p>
+          Participants learn programming fundamentals, work with consistently
+          formatted files, extract information from documents, and connect a
+          Python script to an AI model. The final class brings these skills
+          together in a practical project.
+        </p>
+      </div>
+      <div class="course-downloads">
+        <a href="{{ site.base_path }}/CoursePDFs/NWDAutomationCourse_EN.pdf"
+           class="btn btn-green" target="_blank" rel="noopener">
+          English PDF
+        </a>
+        <a href="{{ site.base_path }}/CoursePDFs/NWDAutomationCourse_ES.pdf"
+           class="btn btn-outline" target="_blank" rel="noopener">
+          PDF en español
+        </a>
+      </div>
+    </article>
+
+    <article class="course-card">
+      <div class="course-card-content">
+        <p class="course-category">FAMILY WORKSHOP</p>
+        <h2>AI, Social Media, and Growing Up</h2>
+        <p class="course-subtitle">
+          A 3hr Family Workshop on AI Literacy, Online Readiness, and Wellbeing
+        </p>
+        <p>
+          This practical, conversation-led workshop brings parents and students
+          together to explore the science behind AI and social media, moving
+          beyond the all-or-nothing hype often found in clickbait headlines.
+          Families consider what research tells us about benefits and risks,
+          where uncertainty remains, and how to make informed decisions.
+        </p>
+        <p>
+          Topics include online safety, social media readiness, mental health,
+          social isolation, and the ways AI can influence thinking, memory,
+          and sense of self. Families develop approaches that reflect their
+          own values and circumstances.
+        </p>
+      </div>
+      <div class="course-downloads">
+        <a href="{{ site.base_path }}/CoursePDFs/NWDFamilyScreenTime_EN.pdf"
+           class="btn btn-green" target="_blank" rel="noopener">
+          English PDF
+        </a>
+        <a href="{{ site.base_path }}/CoursePDFs/NWDFamilyScreenTime_ES.pdf"
+           class="btn btn-outline" target="_blank" rel="noopener">
+          PDF en español
+        </a>
+      </div>
+    </article>
+
+  </section>
+</main>
+{% endblock %}

@@ -1,0 +1,49 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<header class="page-head tutoring-head">
+  <div class="wrap">
+    <p class="tutoring-eyebrow">NWD CONSULTING NETWORK</p>
+    <h1>{{ item.title }}</h1>
+    <p class="tutoring-lede">
+      Personalized academic support from an international network
+      of tutors, educators, and subject-matter experts.
+    </p>
+  </div>
+</header>
+
+<main class="tutoring-page">
+  <div class="wrap">
+
+    <section class="tutoring-intro">
+      <div class="tutoring-intro-copy">
+        <h2>Find the right support for your goals.</h2>
+        <p>
+          Explore tutoring across school subjects, advanced coursework,
+          languages, and high-stakes examinations. Browse by subject to
+          discover available tutors, their areas of expertise, and ways
+          to connect with them.
+        </p>
+      </div>
+      <a class="btn btn-gold"
+         href="{{ site.intake_url }}"
+         target="_blank"
+         rel="noopener">
+        Find a tutor
+      </a>
+    </section>
+
+    <div class="tutoring-directory">
+      <div class="tutoring-content prose">
+        {{ item.content|safe }}
+      </div>
+    </div>
+
+  </div>
+</main>
+
+{% include "cta.html" %}
+
+{% endblock %}

@@ -176,9 +176,10 @@ class Builder:
         )
         self.env.filters["longdate"] = long_date
         self.env.filters["initials"] = initials
+        base_path = self.site.get("base_path", "").rstrip("/")
         self.env.globals.update(
             site=self.site,
-            nav=self.site.get("nav", []),
+            nav=[{**n, "url": f"{base_path}{n['url']}"} for n in self.site.get("nav", [])],
             has_logo=has_logo,
             year=TODAY.year,
             build_id=dt.datetime.now().strftime("%Y%m%d%H%M%S"),

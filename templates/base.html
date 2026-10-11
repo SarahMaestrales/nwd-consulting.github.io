@@ -12,23 +12,29 @@
   <meta property="og:url" content="{{ site.url }}{{ url }}">
   <meta property="og:type" content="{{ 'article' if item and item.date else 'website' }}">
   {% if has_logo %}
-  <meta property="og:image" content="{{ site.url }}{{ site.logo }}">
-  <link rel="icon" href="{{ site.logo }}">
+  <!-- <meta property="og:image" content="{{ site.url }}{{ site.logo }}"> -->
+  <meta property="og:image" content="{{ site.url }}{{ site.base_path | default('') }}{{ site.logo }}">
+  <!-- <link rel="icon" href="{{ site.logo }}">  -->
+  <link rel="icon" href="{{ site.base_path | default('') }}{{ site.logo }}">
   {% endif %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.base_path | default('') }}/feed.xml">
+  <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v={{ build_id }}">
+  <link rel="stylesheet" href="{{ site.base_path | default('') }}/css/style.css?v={{ build_id }}">
+  <!--return to this when it is live <link rel="stylesheet" href="/css/style.css?v={{ build_id }}"> -->
 </head>
 <body class="{{ bodyclass or '' }}">
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="wrap bar">
-      <a class="brand" href="/">
+      <a class="brand" href="{{ site.base_path | default('') }}/"></a>
+      <!-- <a class="brand" href="/"> -->
         {% if has_logo %}
-        <img class="logo" src="{{ site.logo }}" alt="" width="52" height="52">
+        <img class="logo" src="{{ site.base_path | default('') }}{{ site.logo }}" alt="" width="52" height="52">
+        <!-- <img class="logo" src="{{ site.logo }}" alt="" width="52" height="52">-->
         {% else %}
         <span class="logo logo-mono" aria-hidden="true">NWD</span>
         {% endif %}
@@ -59,9 +65,11 @@
       <nav aria-label="Footer">
         <ul>
           {% for n in nav %}<li><a href="{{ n.url }}">{{ n.label }}</a></li>{% endfor %}
-          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="{{ site.base_path | default('') }}/privacy-policy/">Privacy Policy</a></li>
+          <!-- <li><a href="/privacy-policy/">Privacy Policy</a></li> -->
           <li><a href="{{ site.linkedin }}" rel="noopener">LinkedIn</a></li>
-          <li><a href="/feed.xml">RSS feed</a></li>
+          <li><a href="{{ site.base_path | default('') }}/feed.xml">RSS feed</a></li>
+          <!-- <li><a href="/feed.xml">RSS feed</a></li> -->
         </ul>
       </nav>
     </div>

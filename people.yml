@@ -36,6 +36,7 @@
       org: Next Level Biology
       role: Equine Facilitated Personal Coach | Catalyst for Growth and Transformation | Cross-cultural Bridge | Problem Solver
       photo: kari-beth-krieger.png
+      link: https://www.nextlevelbiology.com/
     - id: antonio-triunfo
       name: Antonio Triunfo
       credentials: M.A.T.
@@ -51,11 +52,13 @@
       name: Henno Kotze
       role: Digital Futures Manager | Preparing Organisations for the Future of Learning | AI Strategist
       photo: henno-kotze.png
+      link:  https://hennokotze.com
     - id: gordon-tai
       name: Gordon Tai
       org: 3E English
       role: Global Partner | AI Enablement Specialist | STEM & Language Edupreneur
       photo: gordon-tai.png
+      link: https://3eenglishedu.wixsite.com/
     - id: sarah-heany
       name: Sarah Heany
       credentials: Ph.D.

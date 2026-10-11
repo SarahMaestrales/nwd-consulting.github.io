@@ -41,3 +41,9 @@ You had a great idea for an app, and no one is using it? Is it another vocabular
 ## Employee Training
 
 NWD is not limited to K-12 curriculum. We have consultants familiar with creating learning systems for employee education and training programs as well.
+
+## Tutoring & Courses
+
+Looking for individualized academic support? NWD connects students and families with tutors offering support across K–8 subjects, English language learning, biology, chemistry, economics, mathematics, physics, psychology, writing, and college entrance exams.
+
+Explore our [Tutoring](/tutoring/) to find available tutors, their areas of expertise, and contact information.
