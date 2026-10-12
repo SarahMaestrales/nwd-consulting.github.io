@@ -75,6 +75,7 @@ Write your post here. Use plain text, with blank lines between paragraphs.
 [This is a link](https://example.com)
 
 This is an image ![Image alt text](/img/posts/your-picture.jpg)
+> Putting this in front gives you a block quote
 ''',
         encoding="utf-8",
     )

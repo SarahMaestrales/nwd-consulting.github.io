@@ -10,7 +10,6 @@ image: /img/posts/Karin.jpg
 ---
 
 
-
 Kari Beth earned her PhD in Molecular Biology because of her love for the science of genetics. She sees so much humanitarian potential, and her enthusiasm is truly contagious. During our interview, she was excited to teach me about the ways genetic modification of food supplies can be used to help diverse populations. She told me about the development of a virus resistant sweet potato helping to prevent famine in Africa and putting vaccines in bananas for broader accessibility.
 
 Initially Kari Beth chose to pursue a place as a tenure track university professor. She was enamoured with the idea of "opening students' minds with new information" and helping them to develop the critical thinking skills that serve them lifelong. 
