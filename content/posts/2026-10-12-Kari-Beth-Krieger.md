@@ -9,11 +9,6 @@ image: /img/posts/Karin.jpg
 # draft: true      <- remove the # at the start of this line to keep the post hidden
 ---
 
-Write your post here. Use plain text, with blank lines between paragraphs.
-
-## Kari Beth Krieger
-
-![Kari Beth](/img/posts/Karin.jpg)
 
 
 Kari Beth earned her PhD in Molecular Biology because of her love for the science of genetics. She sees so much humanitarian potential, and her enthusiasm is truly contagious. During our interview, she was excited to teach me about the ways genetic modification of food supplies can be used to help diverse populations. She told me about the development of a virus resistant sweet potato helping to prevent famine in Africa and putting vaccines in bananas for broader accessibility.
