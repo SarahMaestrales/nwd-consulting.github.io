@@ -73,6 +73,8 @@ Write your post here. Use plain text, with blank lines between paragraphs.
 - **Bold text** and *italic text* work too
 
 [This is a link](https://example.com)
+
+This is an image ![Image alt text](/img/posts/your-picture.jpg)
 ''',
         encoding="utf-8",
     )
