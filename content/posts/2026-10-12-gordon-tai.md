@@ -4,7 +4,7 @@ date: 2026-10-12
 author: gordon-tai
 categories: [The Latest]
 tags: []
-summary: One or two sentences that appear on the blog list and in search results.
+summary: Gordon Tai, multiple founder and Gamification Designer.
 image: /img/posts/Gordon.jpg
 # draft: true      <- remove the # at the start of this line to keep the post hidden
 ---

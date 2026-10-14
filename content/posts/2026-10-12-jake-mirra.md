@@ -4,12 +4,11 @@ date: 2026-10-12
 author: sarah-maestrales
 categories: [The Latest]
 tags: [math education,]
-summary: One or two sentences that appear on the blog list and in search results.
+summary: Dr. Jake Mirra, on math education.
 image: /img/posts/Jake.jpg
 # draft: true      <- remove the # at the start of this line to keep the post hidden
 ---
 
-Write your post here. Use plain text, with blank lines between paragraphs.
 
 
 

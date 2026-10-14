@@ -22,7 +22,7 @@ logo: /img/NWDLogo.jpg                # drop your logo file at static/img/NWDLog
 intake_url: https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform
 linkedin: https://www.linkedin.com/company/nwd-consulting-network
 
-posts_per_page: 10
+posts_per_page: 20
 default_author: sarah-maestrales
 
 nav:
