@@ -24,12 +24,6 @@
 
 - title: Research, Academics, & AI for Education
   people:
-    - id: sadie-gunnink
-      name: Sadie Gunnink
-      credentials: Ed.D.
-      org: Rise Evolved
-      role: CEO & Founder of Rise Evolved | Learning Systems Development | EdTech Specialist
-      photo: sadie-gunnink.png
     - id: kari-beth-krieger
       name: Kari Beth Krieger
       credentials: Ph.D.
@@ -59,6 +53,12 @@
       role: Global Partner | AI Enablement Specialist | STEM & Language Edupreneur
       photo: gordon-tai.png
       link: https://3eenglishedu.wixsite.com/
+    - id: soaham-sharma
+      name: Soaham Sharma
+      credentials: Certified Life Coach
+      role: Coder | Math Teacher | Life Coach
+      photo: soaham-sharma.png
+      link: https://www.yaask.in/
     - id: sarah-heany
       name: Sarah Heany
       credentials: Ph.D.
