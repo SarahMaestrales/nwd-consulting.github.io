@@ -28,7 +28,9 @@ default_author: sarah-maestrales
 nav:
   - { label: About, url: "/about/" }
   - { label: Services, url: "/services/" }
+  - { label: Workshops, url: "/courses/" }
   - { label: Get the Latest, url: "/blog/" }
+  
 
 countries:
   - Australia
