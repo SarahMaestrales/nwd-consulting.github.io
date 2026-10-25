@@ -2,7 +2,7 @@
 title: Cross-Cultural Collaboration
 card_title: International & Cross-Cultural Collaboration
 slug: cross-cultural-collaboration
-order: 4
+order: 5
 summary: Global work comes with real complexity. Our consultants have navigated international partnerships firsthand and can help you anticipate cultural dynamics, from relationship-building norms to the validity implications of working across contexts. Make sure your whole team feels welcome at events, and your partners feel respected in business.
 ---
 

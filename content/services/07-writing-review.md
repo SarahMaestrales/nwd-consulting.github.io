@@ -1,8 +1,7 @@
 ---
 title: Writing, Review, & Dissemination
 slug: writing-review-dissemination
-order: 2
-note: Some of these services are coming soon.
+order: 7
 summary: Our technical writers and education experts help you communicate your work clearly and credibly. We support manuscript and dissertation writing, translate complex findings for broader audiences, and review surveys, pitches, presentations, and learning materials for audience fit, cultural sensitivity, grade-level alignment, DOK, and standards coverage.
 ---
 

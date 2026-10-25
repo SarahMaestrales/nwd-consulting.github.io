@@ -29,6 +29,7 @@ nav:
   - { label: About, url: "/about/" }
   - { label: Services, url: "/services/" }
   - { label: Workshops, url: "/courses/" }
+  - { label: Tutors, url: "/tutoring/" }
   - { label: Get the Latest, url: "/blog/" }
   
 
