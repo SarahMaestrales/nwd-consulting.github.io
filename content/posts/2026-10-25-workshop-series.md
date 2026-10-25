@@ -2,10 +2,10 @@
 title: "Workshop Series"
 date: 2026-10-25
 author: sarah-maestrales
-categories: [AI Literacy]
+categories: [The Latest, AI Literacy]
 tags: [AI Literacy, AI Automation for Beginners, AI in the community, Online Readiness]
 summary: NWD has recently launched a workshop series to bring AI Literacy courses to your school, workplace, or community!
-# image: /img/posts/your-picture.jpg
+image: /img/NWDLogo.jpg
 # draft: true      <- remove the # at the start of this line to keep the post hidden
 ---
 
