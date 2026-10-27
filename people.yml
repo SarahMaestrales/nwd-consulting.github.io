@@ -8,11 +8,13 @@
       credentials: Ph.D.
       role: AI Implementation Strategist | Psychometrician | Research Methodologist | Curriculum Consultant | Adventurer | Artist
       photo: sarah-maestrales.png
-    - id: ifeyinwa-onyenekwu
-      name: Ifeyinwa Onyenekwu
-      credentials: Ph.D., LMSW
-      role: Learning Leader | Researcher | Professor
-      photo: ifeyinwa-onyenekwu.png
+    - id: kari-beth-krieger
+      name: Kari Beth Krieger
+      credentials: Ph.D.
+      org: Next Level Biology
+      role: Equine Facilitated Personal Coach | Catalyst for Growth and Transformation | Cross-cultural Bridge | Problem Solver
+      photo: kari-beth-krieger.png
+      link: https://www.nextlevelbiology.com/
 
 - title: Software Engineering
   people:
@@ -24,13 +26,6 @@
 
 - title: Research, Academics, & AI for Education
   people:
-    - id: kari-beth-krieger
-      name: Kari Beth Krieger
-      credentials: Ph.D.
-      org: Next Level Biology
-      role: Equine Facilitated Personal Coach | Catalyst for Growth and Transformation | Cross-cultural Bridge | Problem Solver
-      photo: kari-beth-krieger.png
-      link: https://www.nextlevelbiology.com/
     - id: antonio-triunfo
       name: Antonio Triunfo
       credentials: M.A.T.
@@ -64,3 +59,8 @@
       credentials: Ph.D.
       role: Behavioural and Clinical Neuroscience | Data Science | Interdisciplinary Research Methodology | Mellon Scholar | Oppenheimer Fellow
       photo: sarah-heany.png
+    - id: ifeyinwa-onyenekwu
+      name: Ifeyinwa Onyenekwu
+      credentials: Ph.D., LMSW
+      role: Learning Leader | Researcher | Professor
+      photo: ifeyinwa-onyenekwu.png
