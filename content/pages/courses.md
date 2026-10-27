@@ -15,8 +15,9 @@ The industry often uses complicated language to frame AI as some kind of wizardr
 
 Beginning with the basics of how large language models (LLMs) work, the workshop explores hallucinations and AI errors before opening the floor to community-led philosophical discussions about AI's role in society. The final two classes focus on critical thinking and evaluation, including how teachers can design more AI-resistant assignments and how we can question, challenge, and work with these tools without surrendering our own thinking.
 
-- [Download the English PDF](<escape>/CoursePDFs/NWD%20AI%20Literacy_EN.pdf</escape>)
-- [Descargar el PDF en español](<escape>/CoursePDFs/NWD%20AI%20Literacy_ES.pdf</escape>)
+- [Download the English PDF](<escape>/CoursePDFs/AICommunity.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAComunidade.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAComunidade.pdf</escape>)
 
 ## Teaching, Learning, and AI
 
@@ -24,8 +25,9 @@ Beginning with the basics of how large language models (LLMs) work, the workshop
 
 Tired of being slop-slapped with essays students generated? Written by a researcher in the education technology industry specializing in research and measurement, this workshop shows teachers how to help students think again. Educators learn how to better measure student understanding, leverage the weaknesses of AI, design assignments that promote critical thinking, and make AI literacy a natural part of existing courses.
 
-- [Download the English PDF](<escape>/CoursePDFs/NWDTeachingTeachers_EN.pdf</escape>)
-- [Descargar el PDF en español](<escape>/CoursePDFs/NWDTeachingTeachers_ES.pdf</escape>)
+- [Download the English PDF](<escape>/CoursePDFs/AITeachers.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAProfes.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAProfes.pdf</escape>)
 
 ## Boosting Job Skills with AI
 
@@ -35,8 +37,9 @@ Programming can feel inaccessible when even the instructions are full of unfamil
 
 The workshop begins with using AI to navigate unfamiliar tools and understand how code becomes something a computer can run. Participants then learn programming fundamentals, work with consistently formatted files, extract information from documents, and connect a Python script to an AI model. The final class brings these skills together in a practical project addressing a problem from work, study, or everyday life.
 
-- [Download the English PDF](<escape>/CoursePDFs/NWDAutomationCourse_EN.pdf</escape>)
-- [Descargar el PDF en español](<escape>/CoursePDFs/NWDAutomationCourse_ES.pdf</escape>)
+- [Download the English PDF](<escape>/CoursePDFs/AIAutomation.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAAutomatizacion.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAAutomatizacion.pdf</escape>)
 
 ## AI, Social Media, and Growing Up
 
@@ -48,5 +51,6 @@ The workshop demystifies AI, explores why it sometimes gets things wrong, and co
 
 Rather than prescribing one set of rules for every household, the workshop gives families the knowledge and confidence to ask better questions, evaluate risks, and develop approaches that reflect their own values, circumstances, and needs.
 
-- [Download the English PDF](<escape>/CoursePDFs/NWDFamilyScreenTime_EN.pdf</escape>)
-- [Descargar el PDF en español](<escape>/CoursePDFs/NWDFamilyScreenTime_ES.pdf</escape>)
+- [Download the English PDF](<escape>/CoursePDFs/AIFamily.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAFamilias.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAFamilias.pdf</escape>)
