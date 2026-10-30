@@ -7,17 +7,22 @@ description: Explore NWD workshops on AI literacy, teaching and learning, AI-ass
 
 Explore practical workshops developed by NWD to help educators, families, and communities navigate the changing relationship between technology and everyday life.
 
-## AI, Community, and Culture
 
-*A 6-Week Community Workshop on the Myths and Magic of AI*
+## AI Literacy At Work
 
-The industry often uses complicated language to frame AI as some kind of wizardry, but many of these concepts are things we are already trying at home! This six-week workshop brings together people of all ages to look behind the smoke and mirrors, make AI more approachable, and open up space for hard conversations between parents and kids, teachers and students, and across the wider community.
+*An Intensive AI-Literacy Workshop for Businesses and Employers*
 
-Beginning with the basics of how large language models (LLMs) work, the workshop explores hallucinations and AI errors before opening the floor to community-led philosophical discussions about AI's role in society. The final two classes focus on critical thinking and evaluation, including how teachers can design more AI-resistant assignments and how we can question, challenge, and work with these tools without surrendering our own thinking.
+An AI Literacy workshop developed for businesses to comply with the EU AI Literacy Act and to boost productivity.
 
-- [Download the English PDF](<escape>/CoursePDFs/AICommunity.pdf</escape>)
-- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAComunidade.pdf</escape>)
-- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAComunidade.pdf</escape>)
+Beginning with the statistics behind how large language models (LLMs) work, the workshop explores hallucinations and AI errors, how AI outputs content without necessarily understanding the topic, and when an expert is mandatory. Once we have covered the science and ethics, we begin to discuss working well with AI, when to push back, how to reduce API expenditures, and how to get the most of an LLM subscription.
+
+Employees will leave the workshop with a better understanding of ethical use cases for LLM automation, how to identify which tasks can be automated, and how to prepare their files and data for automation. 
+
+All attendees or sponsoring parties will also receive a 10% discount on the introduction to automation course designed for absolute beginners, "Boosting Job Skills with AI". 
+
+- [Download the English PDF](<escape>/CoursePDFs/AIAtWork.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/AIAtWork.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IATraballo.pdf</escape>)
 
 ## Teaching, Learning, and AI
 
@@ -43,7 +48,7 @@ The workshop begins with using AI to navigate unfamiliar tools and understand ho
 
 ## AI, Social Media, and Growing Up
 
-*A 3hr Family Workshop on AI Literacy, Online Readiness, and Wellbeing*
+*A 6 Week Family Workshop on AI Literacy, Online Readiness, and Wellbeing*
 
 AI and social media are becoming an unavoidable part of how young people learn, communicate, build relationships, and understand themselves. This practical, conversation-led workshop brings parents and students together to explore the science behind AI and social media, moving beyond the all-or-nothing hype often found in clickbait headlines. Families learn what research can tell us about the benefits and risks of these technologies, where uncertainty remains, and how to make more informed decisions about their use.
 
@@ -54,3 +59,29 @@ Rather than prescribing one set of rules for every household, the workshop gives
 - [Download the English PDF](<escape>/CoursePDFs/AIFamily.pdf</escape>)
 - [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAFamilias.pdf</escape>)
 - [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAFamilias.pdf</escape>)
+
+
+## AI Literacy At School
+
+*An AI Literacy Workshop for Students*
+
+This workshop is designed for school implementation and can be tailored to students of varying ages and levels of ability. This course focuses on understanding why school and critical thinking remain integral parts of day to day life, despite being able to automate plausible answers. We discuss hard topics like how AI works and next token probability in words and contexts that are easier for young audiences to understand. We let those concepts build onto end-user responsibility, scientific accuracy, and the importance of maintaining personal voice in their writing. Schools or educators are encouraged to provide specific examples they would like to see used for their students, courses or subjects where they have the most concern, and ideas for the group work sessions that are most relevant to their own students.
+
+
+
+- [Download the English PDF](<escape>/CoursePDFs/AIAtSchool.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAEscola.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/AIAtSchool.pdf</escape>)
+
+## AI, Community, and Culture
+
+*A 6-Week Community Workshop on the Myths and Magic of AI*
+
+The industry often uses complicated language to frame AI as some kind of wizardry, but many of these concepts are things we are already trying at home! This six-week workshop brings together people of all ages to look behind the smoke and mirrors, make AI more approachable, and open up space for hard conversations between parents and kids, teachers and students, and across the wider community.
+
+Beginning with the basics of how large language models (LLMs) work, the workshop explores hallucinations and AI errors before opening the floor to community-led philosophical discussions about AI's role in society. The final two classes focus on critical thinking and evaluation, including how teachers can design more AI-resistant assignments and how we can question, challenge, and work with these tools without surrendering our own thinking.
+
+- [Download the English PDF](<escape>/CoursePDFs/AICommunity.pdf</escape>)
+- [Descargar el PDF en español](<escape>/CoursePDFs/GAL_IAComunidade.pdf</escape>)
+- [Descargar el PDF en galego](<escape>/CoursePDFs/GAL_IAComunidade.pdf</escape>)
+

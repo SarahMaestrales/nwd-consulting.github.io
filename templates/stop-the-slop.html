@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+  .workshop-hero {
+    background: var(--ink);
+    color: white;
+    padding: 3rem 0;
+    border-bottom: 4px solid var(--gold);
+  }
+
+  .workshop-hero h1 {
+    color: white;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 0.4rem;
+  }
+
+  .workshop-subtitle {
+    color: var(--gold);
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+
+  .workshop-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .workshop-pill {
+    display: inline-block;
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .workshop-intro {
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .session-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .session-card {
+    border: 1px solid var(--gold);
+    border-radius: 5px;
+    padding: 1.2rem;
+    background: white;
+  }
+
+  .session-card h3 {
+    color: var(--green);
+    font-size: 1.05rem;
+    margin-top: 0;
+  }
+
+  .session-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .session-card li {
+    margin-bottom: 0.4rem;
+  }
+
+  .registration-box {
+    border: 1px solid var(--gold);
+    border-radius: 5px;
+    padding: 1.5rem;
+    background: white;
+  }
+
+  .registration-box h2 {
+    color: var(--green);
+    margin-top: 0;
+  }
+
+  @media (max-width: 650px) {
+    .session-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<header class="workshop-hero">
+  <div class="wrap">
+    <h1>Teaching, Learning, and AI</h1>
+    <p class="workshop-subtitle">
+      A Practical Workshop for Teachers on Learning in the Age of AI
+    </p>
+
+    <div class="workshop-pills">
+      <span class="workshop-pill">For Teachers</span>
+      <span class="workshop-pill">All Subjects</span>
+      <span class="workshop-pill">175 €</span>
+      <span class="workshop-pill">Saturday, December 12, 2026</span>
+      <span class="workshop-pill">9:00–13:00 NYC</span>
+      <span class="workshop-pill">15:00–19:00 Madrid</span>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap workshop-intro">
+    <h2>Stop getting slop-slapped</h2>
+
+    <p>
+      Tired of being slop-slapped with essays students generated?
+      Learn how to make your students do the work again. Written by
+      a research and assessment expert in the EdTech industry, this
+      workshop shows educators how to leverage the weaknesses of AI
+      to promote critical thinking. We'll discuss how to design
+      assignments that encourage deeper thinking and make AI literacy
+      a natural part of any existing course.
+    </p>
+
+    <p>
+      This course covers the basics of how LLMs work, how that
+      influences their output, common mistakes to avoid when using AI,
+      and—most importantly—how to put the effort of critical thinking
+      back on the students. We'll explore ways to incorporate AI
+      literacy into your courses by designing assessments around the
+      tasks AI does poorly. Rather than creating isolated,
+      subject-specific discussions, this shared workshop builds a
+      stronger foundation for understanding how the math and statistics
+      behind model development influence AI output across all contexts.
+    </p>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap">
+    <h2>Workshop sessions</h2>
+    <p class="lede">
+      Five sessions covering AI literacy, common mistakes, critical
+      thinking, and assessment design.
+    </p>
+
+    <div class="session-grid">
+
+      <article class="session-card">
+        <h3>Session 1 · Teaching AI literacy</h3>
+        <ul>
+          <li>State standards and critical thinking competencies.</li>
+          <li>Tokens, prompts, and large language models: demystifying the jargon.</li>
+          <li>Learning how AI works.</li>
+        </ul>
+      </article>
+
+      <article class="session-card">
+        <h3>Session 2 · Avoid these mistakes as an educator</h3>
+        <ul>
+          <li>Where AI-generated learning materials commonly fail.</li>
+          <li>Pattern recognition or construct mastery.</li>
+          <li>Problems with AI autograders.</li>
+        </ul>
+      </article>
+
+      <article class="session-card">
+        <h3>Session 3 · Incorporating AI literacy into every course</h3>
+        <ul>
+          <li>How to talk about AI literacy in the context of any course subject.</li>
+          <li>Leveraging statistics to teach literature.</li>
+          <li>Critical source analysis.</li>
+          <li>Accuracy and precision.</li>
+        </ul>
+      </article>
+
+      <article class="session-card">
+        <h3>Session 4 · A new age of assessment</h3>
+        <ul>
+          <li>Where LLMs are failing.</li>
+          <li>Leveraging AI's weaknesses to design assessments that AI can't do.</li>
+        </ul>
+      </article>
+
+      <article class="session-card">
+        <h3>Session 5 · Stop getting slop-slapped</h3>
+        <ul>
+          <li>Bringing critical thinking back to the classroom.</li>
+          <li>Continuing the discussion on AI-proof assessments.</li>
+        </ul>
+      </article>
+
+      <article class="session-card">
+        <h3>Takeaways that are yours to keep</h3>
+        <ul>
+          <li>A digital copy of the AI Literacy slides to use in your own classroom.</li>
+          <li>Less time grading AI slop.</li>
+          <li>A digital certificate of completion.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="registration-box">
+      <h2>Payment &amp; Registration</h2>
+
+      <p>
+        To register for the workshop or schedule a workshop for your
+        institution, contact:
+      </p>
+
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:sarah@nwd-consulting.com">sarah@nwd-consulting.com</a>
+        </li>
+        <li>
+          WhatsApp:
+          <a href="https://wa.me/34698132644">+34 698 13 26 44</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>Payments can be made through Stripe, bank transfer, or Bizum.</li>
+        <li>
+          Institutions interested in sponsoring this workshop, or teachers
+          participating as a group of more than 8, may apply for discounted
+          group rates.
+        </li>
+        <li>
+          Teachers in low-income school districts who lack institutional
+          support for professional development may request information
+          about special pricing.
+        </li>
+        <li>
+          Participating teachers and schools will also receive a 10%
+          discount on the AI Literacy at School course for their students.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Workshop price: 175 €</strong>
+      </p>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
