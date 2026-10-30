@@ -29,7 +29,9 @@ Tired of reading essays students generated? Learn how to make your students do t
 - Less time grading AI-slop
 - A digital certificate of completion
 
-For more information [see the full course flyer.]({{ site.base_path }}/CoursePDFs/AITeachers.pdf)
-**To register**, contact [sarah@nwd-consulting.com](mailto:sarah@nwd-consulting.com) or WhatsApp ![WhatsApp](https://cdn.simpleicons.org/whatsapp/25D366){: width="16" } [+34 698 13 26 44](https://wa.me/34698132644).
+**For more information**, [see the full course flyer](https://nwd-consulting.com/CoursePDFs/stop-the-slop.pdf). 
+
+**To register**, contact [sarah@nwd-consulting.com](mailto:sarah@nwd-consulting.com) or WhatsApp <a href="https://wa.me/34698132644"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp" style="display:inline; height:1em; width:auto; vertical-align:-0.125em; margin:0 0.2em;"> +34 698 13 26 44</a>.
+
 
 *Looking for something else? We also offer [workshops for workers, businesses, schools, communities, and families.]({{ site.base_path }}/courses)*
