@@ -2,7 +2,7 @@
 title: "Kari Beth Krieger, Ph.D."
 date: 2026-10-12
 author: sarah-maestrales
-categories: [The Latest]
+categories: [The Latest, Our Team]
 tags: []
 summary: Today's spotlight is on Dr. Kari Beth Krieger, whose admirable dedication to making the world a better place is daily evidenced in practice.
 image: /img/posts/Karin.jpg

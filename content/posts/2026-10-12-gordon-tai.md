@@ -2,7 +2,7 @@
 title: "Gordon Tai"
 date: 2026-10-12
 author: gordon-tai
-categories: [The Latest]
+categories: [The Latest, Our Team]
 tags: []
 summary: Gordon Tai, multiple founder and Gamification Designer.
 image: /img/posts/Gordon.jpg

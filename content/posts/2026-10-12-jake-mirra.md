@@ -2,7 +2,7 @@
 title: "Jake Mirra, Ph.D."
 date: 2026-10-12
 author: sarah-maestrales
-categories: [The Latest]
+categories: [The Latest, Our Team]
 tags: [math education,]
 summary: Dr. Jake Mirra, on math education.
 image: /img/posts/Jake.jpg
