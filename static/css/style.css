@@ -168,8 +168,10 @@ p { margin: 0 0 1em; }
 .post-grid .post-item { border-top: 2px solid var(--ink); padding-top: 1.1rem; }
 .post-item { display: grid; gap: 1.25rem; align-content: start; }
 .post-list .post-item.has-thumb { grid-template-columns: 11rem minmax(0, 1fr); }
-.post-thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius); }
-.post-grid .post-thumb img { aspect-ratio: 16 / 9; }
+/* Most post images are headshots. 4:3 is the widest frame that still fits a whole head
+   from a 2:3 portrait (16:9 keeps only the middle 37% of its height), and anchoring the
+   crop near the top keeps faces in frame instead of trimming them from the middle. */
+.post-thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 10%; border-radius: var(--radius); }
 .post-item h3 a { color: var(--ink); text-decoration: none; }
 .post-item h3 a:hover { text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 3px; }
 .post-item p { color: var(--gray); }
