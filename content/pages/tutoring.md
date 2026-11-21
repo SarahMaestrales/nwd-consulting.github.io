@@ -39,14 +39,14 @@ description: Explore tutoring and courses offered by NWD consultants across scho
         <li>Science</li>
         </br>
       </ul>
-      <a class="tutor-contact" href="mailto:davi.conti1983@gmail.com">Contact Davi</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Davi+Faria+De+Conti" target="_blank" rel="noopener">Contact Davi</a>
     </article>
     <article class="tutor-card">
       <h3>Antonio Triunfo</h3>
       <p class="tutor-languages">Italian · English</p>
       <h4>Courses</h4>
       <ul><li>Grades 6–8 science</li></ul>
-      <a class="tutor-contact" href="mailto:antonio.g.triunfo@gmail.com">Contact Antonio</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Antonio+Triunfo" target="_blank" rel="noopener">Contact Antonio</a>
     </article>
     <article class="tutor-card">
       <h3>Kari Beth</h3>
@@ -99,14 +99,14 @@ description: Explore tutoring and courses offered by NWD consultants across scho
       <p class="tutor-languages">Italian · English</p>
       <h4>Courses</h4>
       <ul><li>AP Chemistry</li><li>High school chemistry</li></ul>
-      <a class="tutor-contact" href="mailto:antonio.g.triunfo@gmail.com">Contact Antonio</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Antonio+Triunfo" target="_blank" rel="noopener">Contact Antonio</a>
     </article>
     <article class="tutor-card">
       <h3>Jake Mirra</h3>
       <p class="tutor-languages">English</p>
       <h4>Courses</h4>
       <ul><li>AP Chemistry</li><li>High school chemistry</li></ul>
-      <a class="tutor-contact" href="mailto:jmirra1515@gmail.com">Contact Jake</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Jake+Mirra" target="_blank" rel="noopener">Contact Jake</a>
     </article>
   </div>
 </section>
@@ -142,7 +142,7 @@ description: Explore tutoring and courses offered by NWD consultants across scho
         <li>Geometry, trigonometry and prealgebra</li>
         <li>SAT Math</li>
       </ul>
-      <a class="tutor-contact" href="mailto:antonio.g.triunfo@gmail.com">Contact Antonio</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Antonio+Triunfo" target="_blank" rel="noopener">Contact Antonio</a>
     </article>
     <article class="tutor-card">
       <h3>César Giancarlo Orihuela</h3>
@@ -154,7 +154,7 @@ description: Explore tutoring and courses offered by NWD consultants across scho
         <li>Geometry, trigonometry and prealgebra</li>
         <li>SAT Math</li>
       </ul>
-      <a class="tutor-contact" href="mailto:corihuelap@uni.pe">Contact César</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+C%C3%A9sar+Giancarlo+Orihuela" target="_blank" rel="noopener">Contact César</a>
     </article>
     <article class="tutor-card">
       <h3>Jake Mirra</h3>
@@ -166,7 +166,7 @@ description: Explore tutoring and courses offered by NWD consultants across scho
         <li>Geometry, trigonometry and prealgebra</li>
         <li>SAT Math</li>
       </ul>
-      <a class="tutor-contact" href="mailto:jmirra1515@gmail.com">Contact Jake</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Jake+Mirra" target="_blank" rel="noopener">Contact Jake</a>
     </article>
   </div>
 </section>
@@ -179,7 +179,7 @@ description: Explore tutoring and courses offered by NWD consultants across scho
       <p class="tutor-languages">English</p>
       <h4>Courses</h4>
       <ul><li>AP Physics</li><li>High school physics</li></ul>
-      <a class="tutor-contact" href="mailto:jmirra1515@gmail.com">Contact Jake</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Jake+Mirra" target="_blank" rel="noopener">Contact Jake</a>
     </article>
   </div>
 </section>
@@ -192,7 +192,7 @@ description: Explore tutoring and courses offered by NWD consultants across scho
       <p class="tutor-languages">Italian · English</p>
       <h4>Courses</h4>
       <ul><li>AP Psychology</li><li>High school psychology</li></ul>
-      <a class="tutor-contact" href="mailto:antonio.g.triunfo@gmail.com">Contact Antonio</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Antonio+Triunfo" target="_blank" rel="noopener">Contact Antonio</a>
     </article>
   </div>
 </section>
@@ -205,7 +205,7 @@ description: Explore tutoring and courses offered by NWD consultants across scho
       <p class="tutor-languages">Italian · English</p>
       <h4>Courses</h4>
       <ul><li>SAT Reading and Writing</li><li>Essay writing</li></ul>
-      <a class="tutor-contact" href="mailto:antonio.g.triunfo@gmail.com">Contact Antonio</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Antonio+Triunfo" target="_blank" rel="noopener">Contact Antonio</a>
     </article>
   </div>
 </section>
@@ -218,14 +218,14 @@ description: Explore tutoring and courses offered by NWD consultants across scho
       <p class="tutor-languages">Italian · English</p>
       <h4>Exams</h4>
       <ul><li>SAT (both sections)</li><li>ACT Math</li></ul>
-      <a class="tutor-contact" href="mailto:antonio.g.triunfo@gmail.com">Contact Antonio</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+Antonio+Triunfo" target="_blank" rel="noopener">Contact Antonio</a>
     </article>
     <article class="tutor-card">
       <h3>César Giancarlo Orihuela</h3>
       <p class="tutor-languages">Spanish · English</p>
       <h4>Exams</h4>
       <ul><li>SAT Math</li><li>ACT Math</li><li>GRE Math</li><li>GMAT Math</li></ul>
-      <a class="tutor-contact" href="mailto:corihuelap@uni.pe">Contact César</a>
+      <a class="tutor-contact" href="https://docs.google.com/forms/d/e/1FAIpQLScQF5HryeH5XERr7Jloifa_rWwmwag60oV--TZd8mtIFhxtrQ/viewform?usp=pp_url&amp;entry.1919111512=Tutoring%3A+C%C3%A9sar+Giancarlo+Orihuela" target="_blank" rel="noopener">Contact César</a>
     </article>
   </div>
 </section>
