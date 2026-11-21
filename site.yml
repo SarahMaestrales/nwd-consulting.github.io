@@ -13,8 +13,8 @@ description: >-
   research scientists, data analysts, education experts, technical writers,
   and software engineers.
 
-url: https://www.nwd-consulting.com   # no trailing slash
-cname: www.nwd-consulting.com         # written to the CNAME file for GitHub Pages
+url: https://nwd-consulting.com   # no trailing slash
+cname: nwd-consulting.com         # written to the CNAME file for GitHub Pages
 #base_path: /nwd-consulting.github.io
 base_path: ""
 logo: /img/NWDLogo.jpg                # drop your logo file at static/img/NWDLogo.jpg
